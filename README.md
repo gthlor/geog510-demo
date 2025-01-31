@@ -22,3 +22,7 @@ This is _italic_.
 
 
 ![zootopia](https://i.imgur.com/ZBwwcjo.gif)
+
+```python
+print("Hello, world!")
+```
