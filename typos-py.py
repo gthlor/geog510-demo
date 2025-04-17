@@ -3,7 +3,7 @@ This module contains various types of typos, misspellings, and syntax errors for
 """
 
 
-def calculate_sum(a, b):
+def calculate_sum(a: int, b: int) -> int:
     """
     Calculates the sum of two numbers.
 
@@ -18,7 +18,7 @@ def calculate_sum(a, b):
     return a + b
 
 
-def greeting(name):
+def greeting(name: str) -> None:
     """
     Prints a greeting message.
 
@@ -29,7 +29,7 @@ def greeting(name):
     print(f"Hello, {name}! How are you today?")
 
 
-def find_maximum(numbers):
+def find_maximum(numbers: list) -> int:
     """
     Finds the maximum number in a list.
 
@@ -46,21 +46,21 @@ def find_maximum(numbers):
     return maximum
 
 
-def is_palindorme(wod):
+def is_palindorme(word: str) -> str:
     """
     Checks if a word is a palindorme.
 
     Parameters:
-    wod (str): The wod to check.
+    word (str): The word to check.
 
     Returns:
-    bool: True if the wod is a palindorme, false otherwise.
+    bool: True if the word is a palindorme, false otherwise.
     """
-    return wod == wod[::-1]
+    return word == word[::-1]
 
 
 # Example Usage
-if __name__ == "__mian__":
+if __name__ == "__main__":
     print(calculate_sum(3, 5))  # Should print 8
     greeting("Alice")  # Should print a greeting message
     print(find_maximum([4, 7, 1, 9, 3]))  # Should print 9
