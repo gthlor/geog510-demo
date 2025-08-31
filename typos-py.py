@@ -4,6 +4,7 @@ This module contains various types of typos, misspellings, and syntax errors for
 
 from typing import Optional
 
+
 def calculate_sum(a: int, b: int) -> int:
     """
     Calculates the sum of two numbers.
@@ -43,7 +44,7 @@ def find_maximum(numbers: list[int]) -> Optional[int]:
     if not numbers:
         print("The list is empty.")
         return None
-    
+
     return max(numbers)
 
 
